@@ -2,6 +2,8 @@
 DQN Paddle PARL
 # 运行小trick
 错误的设置evaluate.evl_step = 5000，得到最高平均分 dqn_model_7300(35.40).ckpt，然后改evl_step=1000，再训练，训练出模型：dqn_model_2100(7.92).ckpt；跑出804分
+
+
 # 跑分结果
 100次共804分
 [06-28 21:06:52 MainThread @machine_info.py:88] Cannot find available GPU devices, using CPU now.
