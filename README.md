@@ -2,8 +2,8 @@
 DQN Paddle PARL
 # 运行小trick
 错误的设置evaluate.evl_step = 5000，得到最高平均分 dqn_model_7300(35.40).ckpt，然后改evl_step=1000，再训练，训练出模型：dqn_model_2100(7.92).ckpt；跑出804分
-![image](https://github.com/chunfeng0301/PARL_Star1_CCF/blob/master/gifcc/star1.gif )  
-![image](https://github.com/chunfeng0301/PARL_Star1_CCF/tree/master/gifcc/star1.gif)
+![star1.gif](https://github.com/chunfeng0301/PARL_Star1_CCF/blob/master/gifcc/star1.gif )  
+![star1.gif](https://github.com/chunfeng0301/PARL_Star1_CCF/tree/master/gifcc/star1.gif)
 # 安装文件
 
 paddlepaddle==1.6.3
@@ -11,7 +11,7 @@ parl==1.3.1
 gym
 atari-py
 rlschool==0.3.1
-![text](https://github.com/chunfeng0301/PARL_Star1_CCF/blob/master/requirements.txt)
+![requirements.txt](https://github.com/chunfeng0301/PARL_Star1_CCF/blob/master/requirements.txt)
 
 # 跑分结果
 100次共804分
