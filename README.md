@@ -11,6 +11,7 @@ parl==1.3.1
 gym
 atari-py
 rlschool==0.3.1
+![](https://github.com/chunfeng0301/PARL_Star1_CCF/blob/master/gifcc/star1.gif)
 # 跑分结果
 100次共804分
 [06-28 21:06:52 MainThread @machine_info.py:88] Cannot find available GPU devices, using CPU now.
