@@ -4,16 +4,17 @@ DQN Paddle PARL
 错误的设置evaluate.evl_step = 5000，得到最高平均分 dqn_model_7300(35.40).ckpt，然后改evl_step=1000，再训练，训练出模型：dqn_model_2100(7.92).ckpt；跑出804分
 ![img](https://github.com/chunfeng0301/PARL_Star1_CCF/blob/master/gifcc/star1.gif )  
 ![img](https://github.com/chunfeng0301/PARL_Star1_CCF/tree/master/gifcc/star1.gif)
-# 安装文件
-'''
-paddlepaddle==1.6.3
-parl==1.3.1
-gym
-atari-py
-rlschool==0.3.1
-'''
+
+
+# Requirements
+All codes are tested under the following environment:
+*   paddlepaddle==1.6.3
+*   parl==1.3.1
+
+
 
 # 跑分结果
+```
 100次共804分
 [06-28 21:06:52 MainThread @machine_info.py:88] Cannot find available GPU devices, using CPU now.
 [06-28 21:06:52 MainThread @machine_info.py:88] Cannot find available GPU devices, using CPU now.
@@ -117,4 +118,5 @@ rlschool==0.3.1
 [06-28 21:24:06 MainThread @Star1DQNEvl.py:309] step:97    eval_reward:8.080000000000002  
 [06-28 21:24:17 MainThread @Star1DQNEvl.py:309] step:98    eval_reward:8.02  
 [06-28 21:24:28 MainThread @Star1DQNEvl.py:309] step:99    eval_reward:8.080000000000002  
-[06-28 21:24:28 MainThread @Star1DQNEvl.py:314] test_reward_mean:8.049599999999998    test_reward_sum:804.9599999999998  
+[06-28 21:24:28 MainThread @Star1DQNEvl.py:314] test_reward_mean:8.049599999999998    test_reward_sum:804.9599999999998 
+```
