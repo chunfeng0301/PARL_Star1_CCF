@@ -5,13 +5,13 @@ DQN Paddle PARL
 ![img](https://github.com/chunfeng0301/PARL_Star1_CCF/blob/master/gifcc/star1.gif )  
 ![img](https://github.com/chunfeng0301/PARL_Star1_CCF/tree/master/gifcc/star1.gif)
 # 安装文件
-"""
+'''
 paddlepaddle==1.6.3
 parl==1.3.1
 gym
 atari-py
 rlschool==0.3.1
-"""
+'''
 
 # 跑分结果
 100次共804分
